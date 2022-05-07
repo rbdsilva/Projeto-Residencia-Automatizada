@@ -1,0 +1,53 @@
+[
+    {
+        "id": "d04278d9.e244b8",
+        "type": "ui_led",
+        "z": "3fd767e.d0e3498",
+        "order": 10,
+        "group": "5b4f3965.8b8338",
+        "width": "2",
+        "height": "2",
+        "label": "Ventilador",
+        "labelPlacement": "right",
+        "labelAlignment": "center",
+        "colorForValue": [
+            {
+                "color": "#168e92",
+                "value": "V",
+                "valueType": "str"
+            },
+            {
+                "color": "#926b16",
+                "value": "v",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "square",
+        "showGlow": false,
+        "name": "Ventilador",
+        "x": 980,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "5b4f3965.8b8338",
+        "type": "ui_group",
+        "name": "Atuadores",
+        "tab": "b1cbdefa.52fbd",
+        "order": 3,
+        "disp": true,
+        "width": "3",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "b1cbdefa.52fbd",
+        "type": "ui_tab",
+        "name": "Casa",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    }
+]
