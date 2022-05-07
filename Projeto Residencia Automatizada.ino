@@ -1,7 +1,7 @@
 // * Programa: Tutorial Casa Monitorada *
-//Autor: Curto Circuito * 
-//Descrição: Programa de monitoramento e controle residencial através de aplicativo * 
-//em comunicação MQTT com o ESP8266 
+// Autor: Curto Circuito * 
+// Descrição: Programa de monitoramento e controle residencial através de aplicativo em comunicação MQTT com o ESP8266 
+// Neste código foram implementadas bibliotecas para tratar do componente Ventilador e a regra para acionamento automático
 //******************************************************************************/
 
 /*BIBLIOTECAS*/ 
@@ -10,8 +10,6 @@
 #include <PubSubClient.h>
 #include <Adafruit_Sensor.h>
 #include <DHT.h>
-#include <Adafruit_Sensor.h>
-
 
 #define MSG_BUFFER_SIZE (50)
 char msg[MSG_BUFFER_SIZE];                                                                        
